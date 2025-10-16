@@ -1,0 +1,227 @@
+
+.hero {
+  background: linear-gradient(135deg, #323232, #ffea00);
+  color: rgb(251, 255, 0);
+  padding: 120px 30px;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #ffff00;
+  color: #000000;
+  font-weight: 500;
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #797979;
+  color: #ffffff;
+}
+
+/* Navegação */
+.navbar {
+  background-color: #ff0000;
+  padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+  color: rgb(255, 238, 0);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+  color: rgb(255, 251, 0) !important;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.navbar .nav-link:hover {
+  color: #858585 !important;
+  font-weight: 500;
+}
+
+/*quadro de menu  */
+.navbar .navbar-toggler {
+  border: none;
+  background-color: #232323;
+}
+
+.navbar .navbar-toggler-icon {
+  background-color: #232323;
+}
+
+/* Cards de Dicas */
+.card {
+  background: #e3d508;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgb(0, 0, 0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 40px rgb(0, 0, 0);
+}
+
+.card i {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #060606;
+}
+
+/* Seção de Dicas */
+section {
+  padding: 60px 0;
+}
+
+section#dicas {
+  background-color: #ffffff;
+}
+
+/* Verificador de Links */
+#verificador {
+  background-color: #fff;
+  padding: 50px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgb(255, 255, 255);
+}
+
+#verificador h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#verificador .form-control {
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+#verificador .form-control:focus {
+  border-color: #f9e800;
+  box-shadow: 0 0 5px rgba(96, 123, 162, 0.3);
+}
+
+#verificador button {
+  background-color: #dfcd0d;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 15px 30px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#verificador button:hover {
+  background-color: #4e4e4e;
+}
+
+/* Seção de Contato */
+#contato {
+  background-color: #000000;
+  color: white;
+  padding: 60px 30px;
+}
+
+#contato h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#contato p {
+  font-size: 1.2rem;
+}
+
+#contato i {
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffea00;
+  color: rgb(0, 0, 0);
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: #3a8dff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h5 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  #verificador .form-control {
+    font-size: 1rem;
+  }
+}
